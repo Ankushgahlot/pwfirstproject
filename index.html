@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        body {
+            padding-top: 47px;
+        }
+
+        .containour {
+            border-radius: 9px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            height: 69vh;
+            background-color: beige;
+            margin: auto;
+        }
+
+        .containour-1 {
+            border-radius: 9px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 57%;
+            height: 91vh;
+            background-color: #090909;
+            margin: auto;
+        }
+
+        .login {
+            border-radius: 9px;
+            width: 60vh;
+            height: 47vh;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #fff;
+        }
+        .signup{
+            border-radius: 10px;
+            width: 60vh;
+            height: 87vh;
+            align-items: center;
+            display: flex;
+           
+            background-color: #fff;
+        }
+
+        .login-page input {
+            width: 91%;
+            background-color: #fff;
+            font-size: 17px;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+            height: 50px;
+        }
+
+        .login {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 15px;
+
+        }
+
+        .login-page {
+            text-align: center;
+        }
+
+        .login-page button {
+            cursor: pointer;
+            color: #fff;
+            width: 92%;
+            border: navajowhite;
+            height: 53px;
+            font-size: 24px;
+            border-radius: 7px;
+            margin-top: 42px;
+            background-color: #2867fc;
+        }
+
+        .login-page button a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .page h2{
+            text-align: center;
+            font-size: 32px;
+        }
+        .page input{
+            border-radius: 5px;
+            width: 23vw;
+            height: 34px;
+        }
+        .page{
+            margin-left: 32px;
+        }
+        .page p{
+            font-weight:500;
+            margin-top:30px;
+            color: black;
+            margin-bottom: 0px;
+        }
+        .page select{
+            font-size: 14px;
+            border-color: black;
+            width: 23vw;
+            height: 34px;
+            border-radius: 5px;
+        }
+        .page button{
+            width: 23vw;
+            height: 33px;
+            border: none;
+            font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+            color: #fff;
+            background-color: black;
+            border-radius: 4px;
+        }
+        @media screen and (max-width:1000px) {
+            .containour,.containour-1{
+                width: 100%;
+            }
+        }
+        @media screen and (max-width:1000px) {
+            .page input,.page select, .page button{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Quesation-1</h3>
+    <div class="containour">
+        <div class="login">
+            <div class="login-page">
+                <h2>Login</h2>
+                <input type="email" name="email" id="email" placeholder="Username">
+                <input type="password" name="password" id="password" placeholder="password">
+                <a href="#"><button>Sumit</button></a>
+            </div>
+        </div>
+    </div>
+    <h3>Quesation-1</h3>
+    <div class="containour-1">
+        <div class="signup">
+            <div class="page">
+                <h2>Signup</h2>
+                <p>Name</p>
+                <input type="name" name="Name" id="Name">
+                <p>Batch:</p>
+                <select name="Batch" id="Batch">
+                    <option value="">Sigma 2.0</option>
+
+                </select>
+                <p>Age:</p>
+                <input type="number">
+                <p>Email:</p>
+                <input type="email">
+                <p>Password:</p>
+                <input type="password" name="" id="">
+                <a href="#"><button>Signup</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
