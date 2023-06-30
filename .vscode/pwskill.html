@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & Github Assignment</title>
+</head>
+
+<body>
+    <!-- Q1. Design and develop a login page using HTML and CSS. The login page should have a visually appealing
+layout as shown in the below image.
+Note: Publish this your code to github & Submit the link. -->
+    <!-- Answer -->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quesation-1</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: rgb(248, 248, 245);
+            }
+
+            .container {
+                height: 270px;
+                width: 300px;
+                background-color: white;
+                box-shadow: 3px 3px 3px rgb(205, 203, 203);
+                margin-top: 250px;
+                border-radius: 10px;
+            }
+
+            #form1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .input {
+                border: none;
+                width: 80%;
+                padding: 10px;
+                border-bottom: 2px solid rgb(146, 144, 144);
+            }
+
+            .submit {
+                border: none;
+                width: 87%;
+                padding: 10px;
+                border-radius: 5px;
+                margin-top: 13px;
+                background-color: rgb(105, 105, 241);
+                color: aliceblue;
+                font-weight: 600;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <form action="#" id="form1">
+                <h1>Login</h1>
+                <input class="input" type="text" placeholder="Username">
+                <input class="input" type="password" placeholder="password">
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+
+    </html>
+    <!-- Q2. Design and develop a SignUp page using HTML and CSS. The login page should have a visually appealing
+layout as shown in the below image.
+Note: Publish this your code to github & Submit the link. -->
+    <!-- Answer -->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quesation-2</title>
+        <style>
+            body {
+                background-color: rgb(49, 48, 48);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            .container1 {
+                height: 530px;
+                width: 400px;
+                background-color: aliceblue;
+                border-radius: 10px;
+                margin-top: 150px;
+            }
+
+            #form1 {
+                display: flex;
+                flex-direction: column;
+                margin-left: 15px;
+                gap: 10px;
+            }
+
+            .input1 {
+                width: 90%;
+                padding: 6px;
+                border-radius: 3px;
+                border: 2px solid rgb(152, 148, 148);
+            }
+
+            .submit {
+
+                border: none;
+                width: 93%;
+                padding: 10px;
+                border-radius: 5px;
+                margin-top: 13px;
+                background-color: rgb(47, 47, 48);
+                color: aliceblue;
+                font-weight: 600;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container1">
+            <form id="form1" action="#">
+                <h1>Signup</h1>
+                <label for="Name">Name:</label>
+                <input class="input1" type="text">
+                <label for="Batch:">Batch:</label>
+                <select class="input1" name="Batch:" id="Batch:">
+                    <option class="input1" value="Sigma 2.0">Sigma 2.0</option>
+                    <option class="input1" value="Sigma 2.1">Sigma 2.1</option>
+                    <option class="input1" value="Sigma 2.2">Sigma 2.2</option>
+                    <option class="input1" value="Sigma 2.3">Sigma 2.3</option>
+                </select>
+                <label for="Age">Age:</label>
+                <input class="input1" type="number">
+
+                <label for="Email">Email:</label>
+                <input class="input1" type="email">
+
+                <label for="password">password:</label>
+                <input class="input1" type="password">
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+
+    </html>
+</body>
+
+</html>
